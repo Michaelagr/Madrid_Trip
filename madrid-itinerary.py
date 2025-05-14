@@ -3,7 +3,6 @@ import streamlit as st
 st.set_page_config(page_title="Madrid Reiseplan", layout="wide")
 
 
-
 # Titel
 st.title("🌆 Madrid Reiseplan für 4 Tage")
 st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Entspannung und Genuss.**")
@@ -88,11 +87,16 @@ itinerary = {
         "Nachmittag": [
             "🕌 *Templo de Debod* – ägyptischer Tempel mit Sonnenuntergang",
             "🖼️ Optional: *Museo Sorolla* (klein & ruhig)"
-        ],
+        ]
+    },
         "Abendessen": [
             "🌿 *Botania* (gleich beim Hotel, stilvoll)",
             "🍄 *El Cisne Azul* – für Pilzliebhaber"
-        ]
+        ],
+        "Tag 5 - Abreise": {
+            "Abreise": [
+                "✈️ 6.20 Uhr Abflug Madrid Flughafen "
+                ]
     }
 }
 
