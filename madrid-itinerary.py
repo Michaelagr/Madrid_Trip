@@ -9,7 +9,7 @@ st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Ent
 # Seitenleiste für Navigation
 days = ["Tag 1 - Donnerstag – Klassiker & Altstadt", 
         "Tag 2",
-        "Tag 3 - Samstag", "Tag 4 - Sonntag – Abschied & Ausblick", "Tag 5 - Montag - Abreise"]
+        "Tag 3 - Samstag", "Tag 4 - Sonntag", "Tag 5 - Montag - Abreise"]
 selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
 
 # Tagespläne
@@ -35,7 +35,7 @@ itinerary = {
             "🍷 Abendessen: *La Taberna de Elia* (klassisch & lokal)"
         ]
     },
-    "Tag 2": {
+    "Tag 2 - Freitag": {
         "Frühstück": [
             "☕ *Café de Oriente* oder *Federal Café*"
         ],
@@ -73,7 +73,7 @@ itinerary = {
             "🍷 Alternativ: *Taberna Tempranillo* auf der *Cava Baja*"
         ]
     },
-    "Tag 4 – Sonntag - Abschied & Ausblick": {
+    "Tag 4 – Sonntag": {
         "Frühstück": [
             "☕ *El Jardín Secreto* oder Hotelfrühstück auf der Terrasse"
         ],
