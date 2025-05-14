@@ -48,7 +48,7 @@ itinerary = {
         ],
         "Mittagessen": [
             "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
-            " 🌭 Option für *Snack*: Charrua Madrid (Arepas, Empfehlung)"
+            " 🌭 Option für *Snack*: Latino Arepa (Arepas, Empfehlung)"
         ],
         "Nachmittag": [
             "🌿 Spaziergang durch den *Retiro-Park* mit Kristallpalast",
