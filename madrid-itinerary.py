@@ -37,6 +37,9 @@ itinerary = {
         ]
     },
     "Tag 2 – Kunst & Retiro": {
+        "Sport": [
+          "💪 *Jogging-Runde* durch Retiro Park"      
+        ],
         "Frühstück": [
             "☕ *Café de Oriente* oder *Federal Café*"
         ],
@@ -44,7 +47,8 @@ itinerary = {
             "🖼️ Besuch im *Museo del Prado* oder *Reina Sofía* (für Picasso & Co.)"
         ],
         "Mittagessen": [
-            "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)"
+            "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
+            " 🌭 Option für *Snack*: Charrua Madrid (Arepas, Empfehlung)"
         ],
         "Nachmittag": [
             "🌿 Spaziergang durch den *Retiro-Park* mit Kristallpalast",
@@ -71,7 +75,8 @@ itinerary = {
         ],
         "Abendessen": [
             "🔥 *Sobrino de Botín* – ältestes Restaurant der Welt (vorher reservieren!)",
-            "🍷 Alternativ: *Taberna Tempranillo* auf der *Cava Baja*"
+            "🍷 Alternative 1: *Taberna Tempranillo* auf der *Cava Baja*",
+            "⭐ Alternative 2: *Manero* (Empfehlung Maria)"
         ]
     },
     "Tag 4 – Abschied & Ausblick": {
