@@ -67,7 +67,8 @@ itinerary = {
             "🎨 Erkundung von *Lavapiés*: Street Art, kleine Galerien, alternative Läden"
         ],
         "Mittagessen": [
-            "🍽️ *Mercado de Antón Martín* – vielfältige Auswahl"
+            "🍽️ *Mercado de Antón Martín* – vielfältige Auswahl",
+            "⭐ Alternative: La Maruca - Velazquez (Empfehlung)"
         ],
         "Nachmittag": [
             "🚶 Spaziergang durch *La Latina* mit Plaza de la Paja",
