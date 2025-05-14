@@ -32,7 +32,8 @@ itinerary = {
         ],
         "Abendessen": [
             "🍹 Rooftop-Aperitif: *Picalagartos* oder *Doña Luz*",
-            "🍷 Abendessen: *La Taberna de Elia* (klassisch & lokal)"
+            "🍷 Abendessen Option 1: *La Taberna de Elisa* (klassisch & lokal)",
+            "🍷 Abendessen Option 2: *Kuoco* (Empfehlung Maria)"
         ]
     },
     "Tag 2 – Kunst & Retiro": {
