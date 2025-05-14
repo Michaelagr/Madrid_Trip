@@ -96,6 +96,7 @@ itinerary = {
         "Abflug": [
             "✈️ 6.20 Uhr Madrid Flughafen"
         ]
+    }
 }
 
 # Anzeige des ausgewählten Tages
