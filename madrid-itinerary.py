@@ -87,12 +87,12 @@ itinerary = {
         "Nachmittag": [
             "🕌 *Templo de Debod* – ägyptischer Tempel mit Sonnenuntergang",
             "🖼️ Optional: *Museo Sorolla* (klein & ruhig)"
-        ]
-    },
+        ],
         "Abendessen": [
             "🌿 *Botania* (gleich beim Hotel, stilvoll)",
             "🍄 *El Cisne Azul* – für Pilzliebhaber"
-        ],
+        ]
+    },
         "Tag 5 - Montag - Abreise": {
             "Abreise": [
                 "✈️ 6.20 Uhr Abflug Madrid Flughafen "
