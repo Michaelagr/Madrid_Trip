@@ -7,7 +7,7 @@ st.title("🌆 Madrid Reiseplan für 4 Tage")
 st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Entspannung und Genuss.**")
 
 # Seitenleiste für Navigation
-days = ["Tag 0 - Ankunft", "Tag 1 - Donnerstag – Klassiker & Altstadt", "Tag 2 - Freitag – Kunst & Retiro",
+days = ["Tag 1 - Donnerstag – Klassiker & Altstadt", "Tag 2 - Freitag – Kunst & Retiro",
         "Tag 3 - Samstag – Lokale Viertel & Hidden Gems", "Tag 4 - Sonntag – Abschied & Ausblick", "Tag 5 - Montag - Abreise"]
 selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
 
