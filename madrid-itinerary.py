@@ -91,7 +91,7 @@ itinerary = {
             "🌿 *Botania* (gleich beim Hotel, stilvoll)",
             "🍄 *El Cisne Azul* – für Pilzliebhaber"
         ]
-    }
+    },
     "Tag 5 - Montag - Abreise":{
         "Abflug": [
             "✈️ 6.20 Uhr Madrid Flughafen"
