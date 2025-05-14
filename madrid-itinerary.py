@@ -54,7 +54,7 @@ itinerary = {
             "🥘 Alternativ: *Inclán Brutal* – kreative Tapas"
         ]
     },
-    "Tag 3": {
+    "Tag 3 - Samstag": {
         "Frühstück": [
             "☕ *Plántate Café* oder *The Fix* (Lavapiés)"
         ],
