@@ -7,13 +7,13 @@ st.title("🌆 Madrid Reiseplan für 4 Tage")
 st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Entspannung und Genuss.**")
 
 # Seitenleiste für Navigation
-days = ["Tag 1 – Klassiker & Altstadt", "Tag 2 – Kunst & Retiro",
-        "Tag 3 – Lokale Viertel & Hidden Gems", "Tag 4 – Abschied & Ausblick"]
+days = ["Tag 0 - Ankunft", "Tag 1 - Donnerstag – Klassiker & Altstadt", "Tag 2 - Freitag – Kunst & Retiro",
+        "Tag 3 - Samstag – Lokale Viertel & Hidden Gems", "Tag 4 - Sonntag – Abschied & Ausblick", "Tag 5 - Montag - Abreise"]
 selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
 
 # Tagespläne
-itinerary = {
-    "Tag 1 – Klassiker & Altstadt": {
+itinerary = {    
+    "Tag 1 - Donnerstag – Klassiker & Altstadt": {
         "Frühstück": [
             "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)"
         ],
@@ -34,7 +34,7 @@ itinerary = {
             "🍷 Abendessen: *La Taberna de Elia* (klassisch & lokal)"
         ]
     },
-    "Tag 2 – Kunst & Retiro": {
+    "Tag 2 – Freitag - Kunst & Retiro": {
         "Frühstück": [
             "☕ *Café de Oriente* oder *Federal Café*"
         ],
@@ -53,7 +53,7 @@ itinerary = {
             "🥘 Alternativ: *Inclán Brutal* – kreative Tapas"
         ]
     },
-    "Tag 3 – Lokale Viertel & Hidden Gems": {
+    "Tag 3 – Samstag - Lokale Viertel & Hidden Gems": {
         "Frühstück": [
             "☕ *Plántate Café* oder *The Fix* (Lavapiés)"
         ],
@@ -72,7 +72,7 @@ itinerary = {
             "🍷 Alternativ: *Taberna Tempranillo* auf der *Cava Baja*"
         ]
     },
-    "Tag 4 – Abschied & Ausblick": {
+    "Tag 4 – Sonntag - Abschied & Ausblick": {
         "Frühstück": [
             "☕ *El Jardín Secreto* oder Hotelfrühstück auf der Terrasse"
         ],
@@ -92,6 +92,10 @@ itinerary = {
             "🍄 *El Cisne Azul* – für Pilzliebhaber"
         ]
     }
+    "Tag 5 - Montag - Abreise":{
+        "Abflug": [
+            "✈️ 6.20 Uhr Madrid Flughafen"
+        ]
 }
 
 # Anzeige des ausgewählten Tages
