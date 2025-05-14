@@ -2,21 +2,20 @@ import streamlit as st
 
 st.set_page_config(page_title="Madrid Reiseplan", layout="wide")
 
+
+
 # Titel
 st.title("🌆 Madrid Reiseplan für 4 Tage")
 st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Entspannung und Genuss.**")
 
 # Seitenleiste für Navigation
-days = ["Tag 1 - Donnerstag – Klassiker & Altstadt", 
-        "Tag 2 - Freitag",
-        "Tag 3 - Samstag", 
-        "Tag 4 - Sonntag", 
-        "Tag 5 - Montag - Abreise"]
-selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
+days = ["Tag 1 – Klassiker & Altstadt", "Tag 2 – Kunst & Retiro",
+        "Tag 3 – Lokale Viertel & Hidden Gems", "Tag 4 – Abschied & Ausblick", "Tag 5 - Montag - Abreise"]
+#selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
 
 # Tagespläne
-itinerary = {    
-    "Tag 1 - Donnerstag – Klassiker & Altstadt": {
+itinerary = {
+    "Tag 1 – Klassiker & Altstadt": {
         "Frühstück": [
             "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)"
         ],
@@ -37,7 +36,7 @@ itinerary = {
             "🍷 Abendessen: *La Taberna de Elia* (klassisch & lokal)"
         ]
     },
-    "Tag 2 - Freitag": {
+    "Tag 2 – Kunst & Retiro": {
         "Frühstück": [
             "☕ *Café de Oriente* oder *Federal Café*"
         ],
@@ -56,7 +55,7 @@ itinerary = {
             "🥘 Alternativ: *Inclán Brutal* – kreative Tapas"
         ]
     },
-    "Tag 3 - Samstag": {
+    "Tag 3 – Lokale Viertel & Hidden Gems": {
         "Frühstück": [
             "☕ *Plántate Café* oder *The Fix* (Lavapiés)"
         ],
@@ -75,7 +74,7 @@ itinerary = {
             "🍷 Alternativ: *Taberna Tempranillo* auf der *Cava Baja*"
         ]
     },
-    "Tag 4 - Sonntag": {
+    "Tag 4 – Abschied & Ausblick": {
         "Frühstück": [
             "☕ *El Jardín Secreto* oder Hotelfrühstück auf der Terrasse"
         ],
@@ -94,23 +93,30 @@ itinerary = {
             "🌿 *Botania* (gleich beim Hotel, stilvoll)",
             "🍄 *El Cisne Azul* – für Pilzliebhaber"
         ]
-    },
-    "Tag 5 - Montag - Abreise":{
-        "Abflug": [
-            "✈️ 6.20 Uhr Madrid Flughafen"
-        ]
     }
 }
 
 # Anzeige des ausgewählten Tages
-day_plan = itinerary[selected_day]
-st.header(selected_day)
+#day_plan = itinerary[selected_day]
 
-for section, items in day_plan.items():
-    with st.expander(f"**{section}**", expanded=True):
-        for item in items:
-            st.markdown(f"- {item}")
+tabs = st.tabs(list(itinerary.keys()))
 
-st.sidebar.markdown("---")
-st.sidebar.info("✨ Auf einen wundervollen Trip! Ich freue mich sehr ♥️")
+#st.header(selected_day)
+
+for tab, (day_name, sections) in zip(tabs, itinerary.items()):
+    with tab:
+        st.subheader(day_name)
+        for section, items in sections.items():
+            with st.expander(section, expanded=True):
+                for item in items:
+                    st.markdown(f"- {item}")
+
+
+#for section, items in day_plan.items():
+#    with st.expander(f"**{section}**", expanded=True):
+#        for item in items:
+#            st.markdown(f"- {item}")
+
+#st.sidebar.markdown("---")
+st.info("✨ Auf einen wundervollen Trip! Ich freue mich sehr ♥️")
 
