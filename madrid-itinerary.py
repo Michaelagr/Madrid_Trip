@@ -8,7 +8,7 @@ st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Ent
 
 # Seitenleiste für Navigation
 days = ["Tag 1 - Donnerstag – Klassiker & Altstadt", 
-        "Tag 2",
+        "Tag 2 - Freitag",
         "Tag 3 - Samstag", "Tag 4 - Sonntag", "Tag 5 - Montag - Abreise"]
 selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
 
