@@ -42,15 +42,13 @@ itinerary = {
         ]
     },
     "Tag 2 – Kunst & Retiro": {
-        "Sport": [
-          "💪 *Jogging-Runde* durch Retiro Park"      
-        ],
         "Frühstück": [
             "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)",
             "☕ *Café de Oriente* oder *Federal Café*"
         ],
         "Vormittag": [
-            "🖼️ Besuch im *Museo del Prado* oder *Reina Sofía* (für Picasso & Co.)"
+            "🔦 *Museo de la Luz*",
+            "🖼️ Besuch im *Museo del Prado* oder *Reina Sofía* (für Picasso & Co.) - vielleicht auch nicht"
         ],
         "Mittagessen": [
             "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
@@ -72,6 +70,9 @@ itinerary = {
         ]
     },
     "Tag 3 – Lokale Viertel & Hidden Gems": {
+        "Sport": [
+          "💪 *Jogging-Runde* durch Retiro Park"      
+        ],
         "Frühstück": [
             "☕ *Plántate Café* oder *The Fix* (Lavapiés)"
         ],
