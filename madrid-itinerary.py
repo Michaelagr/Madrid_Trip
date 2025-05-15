@@ -23,7 +23,7 @@ itinerary = {
             "🧭 *Plaza Mayor* – Flamenco Konzert",
             "🍃 *Pflanzen Shop* - Kurze Auszeit",
             "🏠 *Thyssen Museum* - Museumsshop",
-            "📍 Puerta del Sol – das Herz Madrids",
+            "📍 Puerta del Sol – das Herz Madrids"
         ],
         "Mittagessen": [
             "🦐 *La abuela* - Tapas Bar mit frittierten Scampi & Scampi mit Knoblauch + Sangria & Bier",
@@ -32,7 +32,7 @@ itinerary = {
         ],
         "Nachmittag": [
             "🛍️ *Shopping Pause* - Zara & Corte Ingles (unerfolgreich)",
-            "⛪ *San Idriso Prozession" - Trauermarsch-Feeling für Feiertag",
+            "⛪ *San Idriso Prozession* - Trauermarsch-Feeling für Feiertag",
             "🚶‍♀️ *Spaziergang* durch die Stadt"
         ],
         "Abendessen": [
