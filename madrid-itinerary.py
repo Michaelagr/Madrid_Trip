@@ -27,7 +27,7 @@ itinerary = {
         ],
         "Mittagessen": [
             "🦐 *La abuela* - Tapas Bar mit frittierten Scampi & Scampi mit Knoblauch + Sangria & Bier",
-            "🌧️ *Regenpause mit mehr Sangria",
+            "🌧️ *Regenpause* mit mehr Sangria",
             "🥧 *Manteigeria* - Pasteis de Nata am Plaza de Sol"
         ],
         "Nachmittag": [
@@ -51,6 +51,7 @@ itinerary = {
             "🖼️ Besuch im *Museo del Prado* oder *Reina Sofía* (für Picasso & Co.) - vielleicht auch nicht"
         ],
         "Mittagessen": [
+            "🍽️ * La Maruca* - Empfehlung (nördlich von Retiro)"
             "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
             " 🌭 Option für *Snack*: Latino Arepa (Arepas, Empfehlung)"
         ],
