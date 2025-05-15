@@ -78,7 +78,9 @@ itinerary = {
             "☕ *Plántate Café* oder *The Fix* (Lavapiés)"
         ],
         "Vormittag": [
-            "🎨 Erkundung von *Lavapiés*: Street Art, kleine Galerien, alternative Läden"
+            "🎨 Erkundung von *Lavapiés*: Street Art, kleine Galerien, alternative Läden",
+            "🌿 Spaziergang durch den Jardines del Conde Duque – ruhig & grün",
+            "🖼️ Optional: Ausstellung im Centro Cultural Conde Duque – wechselnde moderne Kunst/Performance"
         ],
         "Mittagessen": [
             "🍽️ *Mercado de Antón Martín* – vielfältige Auswahl",
@@ -99,7 +101,7 @@ itinerary = {
             "☕ *El Jardín Secreto* oder Hotelfrühstück auf der Terrasse"
         ],
         "Vormittag": [
-            "🛍️ Bummel über die *Gran Vía*, Shopping oder Cafébesuch",
+            "🛍️ Bummel über den *Rastro* - auf die Taschen aufpassen!",
             "🌇 Rooftop: *Círculo de Bellas Artes* (fantastischer Ausblick!)"
         ],
         "Mittagessen": [
@@ -107,10 +109,12 @@ itinerary = {
         ],
         "Nachmittag": [
             "🕌 *Templo de Debod* – ägyptischer Tempel mit Sonnenuntergang",
-            "🖼️ Optional: *Museo Sorolla* (klein & ruhig)"
+            "Alternativ: 🌿 Jardín Botánico – herrlicher botanischer Garten neben dem Prado, ruhig und wunderschön angelegt",
+            "🐢 Im Anschluss: Atocha Bahnhof – Tropenhalle mit Schildkröten & Palmen mitten im Bahnhof",
+            "❌ Leider geschlossen: *Museo Sorolla* (klein & ruhig)"
         ],
         "Abendessen": [
-            "🌿 *Botania* (gleich beim Hotel, stilvoll)",
+            "🦐 *Mercado Miguel* - Tapas Snacks?",
             "🍄 *El Cisne Azul* – für Pilzliebhaber"
         ]
     },
