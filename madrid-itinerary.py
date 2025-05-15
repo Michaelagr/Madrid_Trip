@@ -6,7 +6,9 @@ st.set_page_config(page_title="Madrid Reiseplan", layout="wide")
 st.title("🌆 Madrid Reiseplan für 4 Tage")
 st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Entspannung und Genuss.**")
 
-# Reisedaten (einmal definieren)
+tab1, tab2 = st.tabs(["Übersicht", "Editierbarer Plan"])
+
+# Gemeinsamer Reiseplan (nur einmal definiert)
 itinerary = {
     "Tag 1 – Klassiker & Altstadt": {
         "Frühstück": [
@@ -29,32 +31,84 @@ itinerary = {
             "🍷 Abendessen: *La Taberna de Elia* (klassisch & lokal)"
         ]
     },
-    # [... Tag 2–4 wie gehabt ...]
+    "Tag 2 – Kunst & Retiro": {
+        "Frühstück": [
+            "☕ *Café de Oriente* oder *Federal Café*"
+        ],
+        "Vormittag": [
+            "🖼️ Besuch im *Museo del Prado* oder *Reina Sofía* (für Picasso & Co.)"
+        ],
+        "Mittagessen": [
+            "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)"
+        ],
+        "Nachmittag": [
+            "🌿 Spaziergang durch den *Retiro-Park* mit Kristallpalast",
+            "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)"
+        ],
+        "Abendessen": [
+            "🍷 *La Venencia* – authentisch, Sherry-Bar, keine Fotos erlaubt",
+            "🥘 Alternativ: *Inclán Brutal* – kreative Tapas"
+        ]
+    },
+    "Tag 3 – Lokale Viertel & Hidden Gems": {
+        "Frühstück": [
+            "☕ *Plántate Café* oder *The Fix* (Lavapiés)"
+        ],
+        "Vormittag": [
+            "🎨 Erkundung von *Lavapiés*: Street Art, kleine Galerien, alternative Läden"
+        ],
+        "Mittagessen": [
+            "🍽️ *Mercado de Antón Martín* – vielfältige Auswahl"
+        ],
+        "Nachmittag": [
+            "🚶 Spaziergang durch *La Latina* mit Plaza de la Paja",
+            "🏛️ Optional: *Museo Cerralbo* – ein echter Geheimtipp!"
+        ],
+        "Abendessen": [
+            "🔥 *Sobrino de Botín* – ältestes Restaurant der Welt (vorher reservieren!)",
+            "🍷 Alternativ: *Taberna Tempranillo* auf der *Cava Baja*"
+        ]
+    },
+    "Tag 4 – Abschied & Ausblick": {
+        "Frühstück": [
+            "☕ *El Jardín Secreto* oder Hotelfrühstück auf der Terrasse"
+        ],
+        "Vormittag": [
+            "🛍️ Bummel über die *Gran Vía*, Shopping oder Cafébesuch",
+            "🌇 Rooftop: *Círculo de Bellas Artes* (fantastischer Ausblick!)"
+        ],
+        "Mittagessen": [
+            "🥘 *Lamucca de Pez* oder *Toma Jamón*"
+        ],
+        "Nachmittag": [
+            "🕌 *Templo de Debod* – ägyptischer Tempel mit Sonnenuntergang",
+            "🖼️ Optional: *Museo Sorolla* (klein & ruhig)"
+        ],
+        "Abendessen": [
+            "🌿 *Botania* (gleich beim Hotel, stilvoll)",
+            "🍄 *El Cisne Azul* – für Pilzliebhaber"
+        ]
+    }
 }
 
-tab1, tab2 = st.tabs(["Übersicht", "Editierbarer Plan"])
-
-# === Übersicht ===
 with tab1:
-    for day, sections in itinerary.items():
-        st.subheader(day)
+    for day_name, sections in itinerary.items():
+        st.subheader(day_name)
         for section, items in sections.items():
             with st.expander(section, expanded=True):
                 for item in items:
                     st.markdown(f"- {item}")
 
-# === Editierbarer Plan ===
 with tab2:
-    st.warning("⚠️ Änderungen werden aktuell nicht gespeichert – bitte manuell kopieren bei Bedarf.")
-    for day, sections in itinerary.items():
-        st.subheader(day)
+    for day_name, sections in itinerary.items():
+        st.subheader(day_name)
         for section, items in sections.items():
             with st.expander(section, expanded=True):
                 for i, item in enumerate(items):
                     st.text_input(
-                        f"{day} – {section} – {i+1}",
+                        f"{section} – Punkt {i+1}",
                         value=item,
-                        key=f"{day}_{section}_{i}"
+                        key=f"{day_name}_{section}_{i}"
                     )
 
 st.info("✨ Auf einen wundervollen Trip! Ich freue mich sehr ♥️")
