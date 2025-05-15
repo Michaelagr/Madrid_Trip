@@ -39,6 +39,9 @@ itinerary = {
             "⛲ *Jardin de Santilles* - Unspektakuläres Konzert von Olga, aber nette Atmosphäre",
             "🏛️ *Palacio Real* - Sonnnenuntergang mit Aussicht",
             "🍤 Mercado de San Miguel – Tapas von verschiedenen Ständen (wiederholen mit Hunger)"
+        ],
+        "Night Entertainment": [
+            "📺 *TV Night* - Eurovision Song Contest"
         ]
     },
     "Tag 2 – Kunst & Retiro": {
@@ -60,6 +63,9 @@ itinerary = {
             "🏛️ Almudena-Kathedrale & Palacio Real",
             "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)",
             "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
+        ],
+        "Sundownder": [
+            "🍷 Danach: Sundowner auf der Dachterrasse des Círculo de Bellas Artes (kleiner Eintritt, grandiose Aussicht)"
         ],
         "Abendessen": [
             "🍷 *La Venencia* – authentisch, Sherry-Bar, keine Fotos erlaubt",
