@@ -46,6 +46,9 @@ itinerary = {
         ],
         "Night Entertainment": [
             "📺 *TV Night* - Eurovision Song Contest"
+        ],
+        "Gelaufene Distanz": [
+            "🏆 17km 🏆"
         ]
     },
     
@@ -65,10 +68,11 @@ itinerary = {
     "Mittagessen": [
         "🖼️ Besuch im *Juan March Museo* – Super toll, Fäden, Farben, riesiges Bild im Keller (Laokoon) !!!",
         "🚶‍♀️ Weiter Spaziergang durch Salamanca – Versuch, etwas zu essen zu finden",
+        " 🛍️ Shopping Stopp: Dr. Bloom - grün gepunktete Bluse gekauft",
         "🥪 Unspektakulärer Markt -> gegenüber kleiner *Dosenthunfisch-Bocadillo*"
     ],
     "Nachmittag": [
-        "📚 Empfehlung von Student: *Galeros Restaurant* (Corrupción Octopus-Bild; Gebratene Squids & Jakobsmuscheln & leckerer Wein)",
+        "📚 Empfehlung von Student: *Galeros Restaurant* (Corrupción Octopus-Bild; Empanada, Gebratene Squids & Jakobsmuscheln & leckerer Wein - sehr ungesalzen, sonst gut)",
         "📞 *Papa angerufen*",
         "🌇 Verzweifelte Suche nach Rooftop Bar für Sonnenuntergang – erfolglos (*UMusic* & *Radio Rooftop*)"
     ],
@@ -77,7 +81,10 @@ itinerary = {
     ],
     "Abendessen": [
         "😴 Zurück & sehr müde"
-    ]
+    ],
+        "Gelaufene Distanz": [
+            "🏆 16km 🏆"
+        ]
     },
     "Tag 3 – Lokale Viertel & Hidden Gems": {
         "Sport": [
