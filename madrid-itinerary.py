@@ -9,7 +9,10 @@ st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Ent
 
 # Seitenleiste für Navigation
 days = ["Tag 1 – Klassiker & Altstadt", "Tag 2 – Kunst & Retiro",
-        "Tag 3 – Lokale Viertel & Hidden Gems", "Tag 4 – Abschied & Ausblick", "Tag 5 - Montag - Abreise", "Gestrichene Optionen"]
+        "Tag 3 – Lokale Viertel & Hidden Gems", 
+        "Tag 4 – Abschied & Ausblick", 
+        "Tag 5 - Montag - Abreise", 
+        "Gestrichene Optionen"]
 #selected_day = st.sidebar.radio("📅 Wähle einen Tag", days)
 
 # Tagespläne
@@ -133,12 +136,12 @@ itinerary = {
         "Tag 5 - Montag - Abreise": {
             "Abreise": [
                 "✈️ 6.20 Uhr Abflug Madrid Flughafen "
-                ],
+                ]
+        },
         "Gestrichene Optionen": {
         "Cafés": [
             "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)",
             "☕ *Café de Oriente* oder *Federal Café*"
-                
         ],
         "Restaurants": [
             "🍽️ * La Maruca* - Empfehlung (nördlich von Retiro)",
@@ -152,7 +155,6 @@ itinerary = {
             "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
         ]
         }
-    }
 }
 
 # Anzeige des ausgewählten Tages
