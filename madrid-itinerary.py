@@ -139,21 +139,21 @@ itinerary = {
                 ]
         },
         "Gestrichene Optionen": {
-        "Cafés": [
-            "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)",
-            "☕ *Café de Oriente* oder *Federal Café*"
-        ],
-        "Restaurants": [
-            "🍽️ * La Maruca* - Empfehlung (nördlich von Retiro)",
-            "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
-            " 🌭 Option für *Snack*: Latino Arepa (Arepas, Empfehlung)"
-        ], 
-        "Nachmittag": [
-            "🌿 Spaziergang durch den *Retiro-Park* mit Kristallpalast",
-            "🏛️ Almudena-Kathedrale & Palacio Real",
-            "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)",
-            "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
-        ]
+            "Cafés": [
+                "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)",
+                "☕ *Café de Oriente* oder *Federal Café*"
+            ],
+            "Restaurants": [
+                "🍽️ * La Maruca* - Empfehlung (nördlich von Retiro)",
+                "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
+                " 🌭 Option für *Snack*: Latino Arepa (Arepas, Empfehlung)"
+            ], 
+            "Nachmittag": [
+                "🌿 Spaziergang durch den *Retiro-Park* mit Kristallpalast",
+                "🏛️ Almudena-Kathedrale & Palacio Real",
+                "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)",
+                "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
+            ]
         }
 }
 
