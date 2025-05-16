@@ -78,7 +78,6 @@ itinerary = {
             "🍹 Rooftop-Aperitif: *Picalagartos* oder *Doña Luz*",
             "🍷 Abendessen Option 1: *La Taberna de Elisa* (klassisch & lokal)",
             "🍷 Abendessen Option 2: *Kuoco* (Empfehlung Maria)"
-
         ]
     },
     "Tag 3 – Lokale Viertel & Hidden Gems": {
@@ -153,6 +152,13 @@ itinerary = {
                 "🏛️ Almudena-Kathedrale & Palacio Real",
                 "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)",
                 "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
+            ],
+             "Abendessen": [
+                "🍷 *La Venencia* – authentisch, Sherry-Bar, keine Fotos erlaubt",
+                "🍽️ Alternativ: *Casa Revuelta* – legendärer Bacalao",
+                "🍹 Rooftop-Aperitif: *Picalagartos* oder *Doña Luz*",
+                "🍷 Abendessen Option 1: *La Taberna de Elisa* (klassisch & lokal)",
+                "🍷 Abendessen Option 2: *Kuoco* (Empfehlung Maria)"
             ]
         }
 }
