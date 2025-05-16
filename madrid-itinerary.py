@@ -8,7 +8,8 @@ st.title("🌆 Madrid Reiseplan für 4 Tage")
 st.markdown("**Für unsere Reise  ♥️ – mit viel Zeit für gutes Essen, Entspannung und Genuss.**")
 
 # Seitenleiste für Navigation
-days = ["Tag 1 – Klassiker & Altstadt", "Tag 2 – Kunst & Retiro",
+days = ["Tag 1 – Klassiker & Altstadt", 
+        "Tag 2 – Tostado, Farben-Museum, Salamanca & Squids",
         "Tag 3 – Lokale Viertel & Hidden Gems", 
         "Tag 4 – Abschied & Ausblick", 
         "Tag 5 - Montag - Abreise", 
@@ -48,7 +49,7 @@ itinerary = {
         ]
     },
     
-    "Tag 2 – Kunst & Retiro": {
+    "Tag 2 – Tostado, Farben-Museum, Salamanca & Squids": {
     "Frühstück": [
         "☕ *Cafe con Leche* zum Aufwachen im Hotel",
         "🍓 *Hanso Cafe* (Joghurt mit Früchten & Cafe con Leche)"
