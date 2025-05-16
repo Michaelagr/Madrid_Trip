@@ -48,37 +48,35 @@ itinerary = {
         ]
     },
     
-    
     "Tag 2 – Kunst & Retiro": {
-        "Frühstück": [
-            "☕ *Café de la Luz* oder *HanSo Café* (Malasaña, 10 Minuten zu Fuß vom Hotel)",
-            "☕ *Café de Oriente* oder *Federal Café*"
-        ],
-        "Vormittag": [
-            "🔦 *Museo de la Luz*",
-            "🖼️ Besuch im *Museo del Prado* oder *Reina Sofía* (für Picasso & Co.) - vielleicht auch nicht"
-        ],
-        "Mittagessen": [
-            "🍽️ * La Maruca* - Empfehlung (nördlich von Retiro)"
-            "🍷 *Los Gatos* oder *Bodega de los Secretos* (stylische Location!)",
-            " 🌭 Option für *Snack*: Latino Arepa (Arepas, Empfehlung)"
-        ],
-        "Nachmittag": [
-            "🌿 Spaziergang durch den *Retiro-Park* mit Kristallpalast",
-            "🏛️ Almudena-Kathedrale & Palacio Real",
-            "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)",
-            "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
-        ],
-        "Sundownder": [
-            "🍷 Danach: Sundowner auf der Dachterrasse des Círculo de Bellas Artes (kleiner Eintritt, grandiose Aussicht)"
-        ],
-        "Abendessen": [
-            "🍷 *La Venencia* – authentisch, Sherry-Bar, keine Fotos erlaubt",
-            "🍽️ Alternativ: *Casa Revuelta* – legendärer Bacalao",
-            "🍹 Rooftop-Aperitif: *Picalagartos* oder *Doña Luz*",
-            "🍷 Abendessen Option 1: *La Taberna de Elisa* (klassisch & lokal)",
-            "🍷 Abendessen Option 2: *Kuoco* (Empfehlung Maria)"
-        ]
+    "Frühstück": [
+        "☕ *Cafe con Leche* zum Aufwachen im Hotel",
+        "🍓 *Hanso Cafe* (Joghurt mit Früchten & Cafe con Leche)"
+    ],
+    "Vormittag": [
+        "🏙️ *Corte Inglés*: Blick auf Hotelzimmer",
+        "🥪 Erster Snack: *Tostado* (endlich!!)",
+        "🍰 Erster Nachtisch: *Merengue Schaum-Törtchen* (🤍)",
+        "🚶‍♀️ Spaziergang Richtung *Salamanca*",
+        "🛍️ *Loewe Laden* mit komischem Verkäufer",
+        "👩‍💻 Remote Work Session für Ela – gestresster Zoom Call im Café"
+    ],
+    "Mittagessen": [
+        "🖼️ Besuch im *Juan March Museo* – Super toll, Fäden, Farben, riesiges Bild im Keller (Laokoon) !!!",
+        "🚶‍♀️ Weiter Spaziergang durch Salamanca – Versuch, etwas zu essen zu finden",
+        "🥪 Unspektakulärer Markt -> gegenüber kleiner *Dosenthunfisch-Bocadillo*"
+    ],
+    "Nachmittag": [
+        "📚 Empfehlung von Student: *Galeros Restaurant* (Corrupción Octopus-Bild; Gebratene Squids & Jakobsmuscheln & leckerer Wein)",
+        "📞 *Papa angerufen*",
+        "🌇 Verzweifelte Suche nach Rooftop Bar für Sonnenuntergang – erfolglos (*UMusic* & *Radio Rooftop*)"
+    ],
+    "Sundownder": [
+        "🍷 *Furchtbarer Essig-Sherry* in Bar mit sonst toller Atmosphäre"
+    ],
+    "Abendessen": [
+        "😴 Zurück & sehr müde"
+    ]
     },
     "Tag 3 – Lokale Viertel & Hidden Gems": {
         "Sport": [
@@ -152,6 +150,9 @@ itinerary = {
             "🏛️ Almudena-Kathedrale & Palacio Real",
             "📖 Bummel durchs *Barrio de las Letras* (literarisches Viertel)",
             "🌳 Pause in den Gärten *Sabatini* oder *Campo del Moro*"
+        ],
+        "Sundownder": [
+            "🍷 Danach: Sundowner auf der Dachterrasse des Círculo de Bellas Artes (kleiner Eintritt, grandiose Aussicht)"
         ],
          "Abendessen": [
             "🍷 *La Venencia* – authentisch, Sherry-Bar, keine Fotos erlaubt",
